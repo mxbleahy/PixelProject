@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+h1 {
+    text-shadow: 3px 2px red;
+    font-variant: small-caps;
+    background-color: rgb(247, 169, 169);
+    font-size: 70px;
+    margin: 0.3em;
+    letter-spacing: 9px;
+    font-family: sans-serif 
+}
+#gridDetails {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(247, 169, 169);
+    padding: 10px;
+}
+form{
+    font-family: sans-serif 
+}
+h2 {
+    margin: 3em 1 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+h2:first-of-type {
+    margin-top: 1em;
+}
+table, tr, td {
+    border: 1px solid rgb(139, 135, 135);
+}
+table {
+    margin: 0 auto;
+}
+tr {
+    height: 30px;
+}
+td {
+    width: 30px;
+}
+input[type=number] {
+    width: 6em;
+}
+#main{
+    background: repeating-radial-gradient(closest-side at 25px 35px, #ccc 15%, #eee 40%);
+    background-size:60px 60px;
+}
